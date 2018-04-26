@@ -52,28 +52,10 @@ This project offers an selenium wrapper with enhanced page object design :
 **3. Wraps the standard selenium methods/properties for better error handling and retries.**
 * Standard selenium webelement actions/methods that fails are retried. Example, when click fails due to the “webdriver exceptions, the click will be received by different element”. The framework will retry the click for x number of times before throwing an exception. 
 * No try catch code on the test case of page objects. Clean code.
-* Example: 
-<br></br>
-  With Framework
-  ```
-  ```
-  Without Framework
-  ```
-  ```
 **4. Allow parent-child node by defining the HTMLElement/HTMLElementList(child) as attributes of another HTMLElement/HTMLElementList(parents).**
-  * Ability to define collection of web elements as a class and to reuse on multiple pages. Less boilerplate code. 
-  * locating elements easier as its search scope will limited to the nested elements of the fragment only.
-  * easier code management as the complex pages or large functinal areas can be break into smaller multiple class objects.
-  * Example: 
-<br></br>
-  With Framework
-  ```
-  ```
-  Without Framework
-  ```
-  ```
-  
-> The use of decriptor protocol in this project was inspired from [python page object](https://github.com/eeaston/page-objects) model
+ * Ability to define collection of web elements as a class and to reuse on multiple pages. Less boilerplate code. 
+ * locating elements easier as its search scope will limited to the nested elements of the fragment only.
+ * easier code management as the complex pages or large functinal areas can be break into smaller multiple class objects.
 
 <h3>PageObject</h3>
 
