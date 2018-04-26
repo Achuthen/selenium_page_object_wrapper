@@ -1,6 +1,3 @@
-# selenium_page_object_wrapper
-Projects offers Python Selenium Page Object Wrapper.
-
 <h1>Python Selenium Page Object Wrapper</h1>
 
 This project offers an selenium wrapper with enhanced page object design : 
