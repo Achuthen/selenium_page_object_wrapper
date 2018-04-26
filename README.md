@@ -23,7 +23,7 @@ This project offers an selenium wrapper with enhanced page object design :
   ```
 **2. Webelement gets looked up each time the locator is used.**
 * Define locator once, but it does search for the locator everytime the webelement is called. (find element on the fly for every calls)
-* Avoid the code failing for Stale element exceptions.
+* Helps to prevent StaleElementReferenceExceptions where element no longer attached to DOM.
 * Example:
 <br></br>
   With Framework:
