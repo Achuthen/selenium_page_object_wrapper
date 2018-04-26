@@ -48,7 +48,8 @@ This project offers an selenium wrapper with enhanced page object design :
   ```
 **3. Wraps the standard selenium methods/properties for better error handling and retries.**
 * Standard selenium webelement actions/methods that fails are retried. Example, when click fails due to the “webdriver exceptions, the click will be received by different element”. The framework will retry the click for x number of times before throwing an exception. 
-* No try catch code on the test case of page objects. Clean code.
+* No try catch code on the scripts. Clean code.
+
 **4. Allow parent-child node by defining the HTMLElement/HTMLElementList(child) as attributes of another HTMLElement/HTMLElementList(parents).**
  * Ability to define collection of web elements as a class and to reuse on multiple pages. Less boilerplate code. 
  * locating elements easier as its search scope will limited to the nested elements of the fragment only.
